@@ -1,3 +1,8 @@
+import src_1 from '../img/team/src_1.png';
+import src_2 from '../img/team/src_2.png';
+import src_3 from '../img/team/src_3.png';
+import src_4 from '../img/team/src_4.png';
+import src_5 from '../img/team/src_5.png';
 import d1_1 from '../img/team/d1_1.png';
 import d1_2 from '../img/team/d1_2.png';
 import d1_3 from '../img/team/d1_3.png';
@@ -257,6 +262,8 @@ const TeamGrid = ({ team }: { team: { name: string; role: string; images: string
 
   const getImages = (member: any) => {
     switch (member.name) {
+      case 'Shounak Ray Chaudhuri':
+        return [src_1, src_2, src_3, src_4, src_5];
       case 'Matthew Hsu':
         return [mh_1, mh_2, mh_3, mh_4, mh_5];
       case 'Peyton Slape':
