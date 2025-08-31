@@ -54,7 +54,7 @@ const Join: React.FC = () => (
           <Typography variant="h4" fontWeight={700} fontFamily="Inter, Arial, sans-serif" mb={2} align="center">Join Our Discord Community</Typography>
           <Typography color="text.secondary" fontFamily="Inter, Arial, sans-serif" mb={2} align="center">Connect with fellow students, get help from mentors, and stay up to date with our latest programs and events.</Typography>
         </Box>
-      <Box bgcolor="#4083cc" color="#fff" borderRadius={2} p={4}>
+  <Box bgcolor="#303947" color="#fff" borderRadius={2} p={4} border="3px solid #4083cc">
         <Typography variant="h4" fontWeight={700} fontFamily="Inter, Arial, sans-serif" mb={2} align="center">
           Join Our Discord Server
         </Typography>
@@ -80,7 +80,7 @@ const Join: React.FC = () => (
 
     {/* Volunteer Form Section - Two Columns, orange box styled like Programs */}
     <Box display="grid" gridTemplateColumns={{ xs: '1fr', md: '1fr 1fr' }} gap={4} mb={6}>
-      <Box bgcolor="#f24c02" color="#fff" borderRadius={2} p={4}>
+  <Box bgcolor="#473024" color="#fff" borderRadius={2} p={4} border="3px solid #f24c02">
         <Typography variant="h4" fontWeight={700} fontFamily="Inter, Arial, sans-serif" mb={2} align="center">
           Enroll as a Volunteer
         </Typography>

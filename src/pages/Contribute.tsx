@@ -53,7 +53,7 @@ const Contribute: React.FC = () => {
 
       {/* Orange box payment portal section - 1 column orange, 2 columns text */}
   <Box display="grid" gridTemplateColumns={{ xs: '1fr', md: '1fr 1fr 1fr' }} gap={4} mb={6} sx={{ width: '100%', boxSizing: 'border-box' }}>
-  <Box bgcolor="#f24c02" color="#fff" borderRadius={2} p={4} display="flex" flexDirection="column" alignItems="center" justifyContent="center" sx={{ width: { xs: '100%' }, boxSizing: { xs: 'border-box' }, maxWidth: { xs: '100vw' }, overflowX: 'auto' }}>
+  <Box bgcolor="#473024" color="#fff" borderRadius={2} p={4} border="3px solid #f24c02" display="flex" flexDirection="column" alignItems="center" justifyContent="center" sx={{ width: { xs: '100%' }, boxSizing: { xs: 'border-box' }, maxWidth: { xs: '100vw' }, overflowX: 'auto' }}>
           <Box sx={{ display: 'flex', borderRadius: 2, overflow: 'hidden', boxShadow: 2, width: '100%' }}>
             <iframe
               src="https://donorbox.org/embed/donate-to-project-nextech?default_interval=m&designation=General+donation+that+our+student+leaders+may+allocate+as+needed&amount=100"
@@ -94,7 +94,7 @@ const Contribute: React.FC = () => {
           <Typography variant="h4" fontWeight={700} fontFamily="Inter, Arial, sans-serif" mb={2} align="center">Sponsor or Partner With Us</Typography>
           <Typography color="text.secondary" fontFamily="Inter, Arial, sans-serif" mb={2} align="center">Fill out the form to become a sponsor or partner. We welcome support from organizations and companies!</Typography>
         </Box>
-  <Box bgcolor="#4083cc" color="#fff" borderRadius={2} p={4} sx={{ width: { xs: '100%' }, boxSizing: { xs: 'border-box' }, maxWidth: { xs: '100vw' }, overflowX: 'auto' }}>
+  <Box bgcolor="#303947" color="#fff" borderRadius={2} p={4} border="3px solid #4083cc" sx={{ width: { xs: '100%' }, boxSizing: { xs: 'border-box' }, maxWidth: { xs: '100vw' }, overflowX: 'auto' }}>
           <Typography variant="h4" fontWeight={700} fontFamily="Inter, Arial, sans-serif" mb={2} align="center">
             Sponsorship/Partnership Form
           </Typography>

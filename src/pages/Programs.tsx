@@ -121,7 +121,7 @@ const Programs: React.FC = () => {
     <Box px={{ xs: 2, md: 6 }} py={6}>
       {/* Email List & Upcoming Programs Section - Two Column Like Mission/Vision */}
       <Box display="grid" gridTemplateColumns={{ xs: '1fr', md: '1fr 1fr' }} gap={4} mb={6}>
-        <Box bgcolor="#f24c02" color="#fff" borderRadius={2} p={4}>
+    <Box bgcolor="#473024" color="#fff" borderRadius={2} p={4} border="3px solid #f24c02">
           <Typography variant="h4" fontWeight={700} fontFamily="Inter, Arial, sans-serif" mb={2} align="center">
             Join Our Email List
           </Typography>
@@ -138,7 +138,7 @@ const Programs: React.FC = () => {
             >Loading…</iframe>
           </Box>
         </Box>
-        <Box bgcolor="#4083cc" color="#fff" borderRadius={2} p={4}>
+  <Box bgcolor="#303947" color="#fff" borderRadius={2} p={4} border="3px solid #4083cc">
           <Typography variant="h4" fontWeight={700} fontFamily="Inter, Arial, sans-serif" mb={2} align="center">
             Upcoming Programs
           </Typography>

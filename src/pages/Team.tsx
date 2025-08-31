@@ -1,3 +1,43 @@
+import d1_1 from '../img/team/d1_1.png';
+import d1_2 from '../img/team/d1_2.png';
+import d1_3 from '../img/team/d1_3.png';
+import d1_4 from '../img/team/d1_4.png';
+import d1_5 from '../img/team/d1_5.png';
+import d2_1 from '../img/team/d2_1.png';
+import d2_2 from '../img/team/d2_2.png';
+import d2_3 from '../img/team/d2_3.png';
+import d2_4 from '../img/team/d2_4.png';
+import d2_5 from '../img/team/d2_5.png';
+import d3_1 from '../img/team/d3_1.png';
+import d3_2 from '../img/team/d3_2.png';
+import d3_3 from '../img/team/d3_3.png';
+import d3_4 from '../img/team/d3_4.png';
+import d3_5 from '../img/team/d3_5.png';
+import d4_1 from '../img/team/d4_1.png';
+import d4_2 from '../img/team/d4_2.png';
+import d4_3 from '../img/team/d4_3.png';
+import d4_4 from '../img/team/d4_4.png';
+import d4_5 from '../img/team/d4_5.png';
+import d5_1 from '../img/team/d5_1.png';
+import d5_2 from '../img/team/d5_2.png';
+import d5_3 from '../img/team/d5_3.png';
+import d5_4 from '../img/team/d5_4.png';
+import d5_5 from '../img/team/d5_5.png';
+import d6_1 from '../img/team/d6_1.png';
+import d6_2 from '../img/team/d6_2.png';
+import d6_3 from '../img/team/d6_3.png';
+import d6_4 from '../img/team/d6_4.png';
+import d6_5 from '../img/team/d6_5.png';
+import d7_1 from '../img/team/d7_1.png';
+import d7_2 from '../img/team/d7_2.png';
+import d7_3 from '../img/team/d7_3.png';
+import d7_4 from '../img/team/d7_4.png';
+import d7_5 from '../img/team/d7_5.png';
+import d8_1 from '../img/team/d8_1.png';
+import d8_2 from '../img/team/d8_2.png';
+import d8_3 from '../img/team/d8_3.png';
+import d8_4 from '../img/team/d8_4.png';
+import d8_5 from '../img/team/d8_5.png';
 import kushImg from '../img/team/kush_kharia.png';
 import forestImg from '../img/team/forest_liang.png';
 import julianImg from '../img/team/julian_garcia.png';
@@ -14,15 +54,101 @@ import jocelynImg from '../img/team/nt_leader.png';
 import srinivasImg from '../img/team/nt_leader.png';
 import rimaImg from '../img/team/nt_leader.png';
 import ntLeaderImg from '../img/team/nt_leader.png';
+import ph_1 from '../img/team/ph_1.png';
+import ph_2 from '../img/team/ph_2.png';
+import ph_3 from '../img/team/ph_3.png';
+import ph_4 from '../img/team/ph_4.png';
+import ph_5 from '../img/team/ph_5.png';
+import te_1 from '../img/team/te_1.png';
+import te_2 from '../img/team/te_2.png';
+import te_3 from '../img/team/te_3.png';
+import te_4 from '../img/team/te_4.png';
+import te_5 from '../img/team/te_5.png';
+import js_1 from '../img/team/js_1.png';
+import js_2 from '../img/team/js_2.png';
+import js_3 from '../img/team/js_3.png';
+import js_4 from '../img/team/js_4.png';
+import js_5 from '../img/team/js_5.png';
+import rc_1 from '../img/team/rc_1.png';
+import rc_2 from '../img/team/rc_2.png';
+import rc_3 from '../img/team/rc_3.png';
+import rc_4 from '../img/team/rc_4.png';
+import rc_5 from '../img/team/rc_5.png';
+import tbd_1 from '../img/team/tbd_1.png';
+import tbd_2 from '../img/team/tbd_2.png';
+import tbd_3 from '../img/team/tbd_3.png';
+import tbd_4 from '../img/team/tbd_4.png';
+import tbd_5 from '../img/team/tbd_5.png';
 import shounakImg from '../img/team/shounak_ray_chaudhuri.png';
 import matthewImg from '../img/team/matthew_hsu.png';
 import peytonImg from '../img/team/peyton_slape.png';
 import shravyaImg from '../img/team/shravya_hatathodi.png';
-import src1 from '../img/team/src_1.png';
-import src2 from '../img/team/src_2.png';
-import src3 from '../img/team/src_3.png';
-import src4 from '../img/team/src_4.png';
-import src5 from '../img/team/src_5.png';
+import mh_1 from '../img/team/mh_1.png';
+import mh_2 from '../img/team/mh_2.png';
+import mh_3 from '../img/team/mh_3.png';
+import mh_4 from '../img/team/mh_4.png';
+import mh_5 from '../img/team/mh_5.png';
+import ps_1 from '../img/team/ps_1.png';
+import ps_2 from '../img/team/ps_2.png';
+import ps_3 from '../img/team/ps_3.png';
+import ps_4 from '../img/team/ps_4.png';
+import ps_5 from '../img/team/ps_5.png';
+import shh_1 from '../img/team/shh_1.png';
+import shh_2 from '../img/team/shh_2.png';
+import shh_3 from '../img/team/shh_3.png';
+import shh_4 from '../img/team/shh_4.png';
+import shh_5 from '../img/team/shh_5.png';
+import srh_1 from '../img/team/srh_1.png';
+import srh_2 from '../img/team/srh_2.png';
+import srh_3 from '../img/team/srh_3.png';
+import srh_4 from '../img/team/srh_4.png';
+import srh_5 from '../img/team/srh_5.png';
+import kk_1 from '../img/team/kk_1.png';
+import kk_2 from '../img/team/kk_2.png';
+import kk_3 from '../img/team/kk_3.png';
+import kk_4 from '../img/team/kk_4.png';
+import kk_5 from '../img/team/kk_5.png';
+import fl_1 from '../img/team/fl_1.png';
+import fl_2 from '../img/team/fl_2.png';
+import fl_3 from '../img/team/fl_3.png';
+import fl_4 from '../img/team/fl_4.png';
+import fl_5 from '../img/team/fl_5.png';
+import jg_1 from '../img/team/jg_1.png';
+import jg_2 from '../img/team/jg_2.png';
+import jg_3 from '../img/team/jg_3.png';
+import jg_4 from '../img/team/jg_4.png';
+import jg_5 from '../img/team/jg_5.png';
+import ct_1 from '../img/team/ct_1.png';
+import ct_2 from '../img/team/ct_2.png';
+import ct_3 from '../img/team/ct_3.png';
+import ct_4 from '../img/team/ct_4.png';
+import ct_5 from '../img/team/ct_5.png';
+import de_1 from '../img/team/de_1.png';
+import de_2 from '../img/team/de_2.png';
+import de_3 from '../img/team/de_3.png';
+import de_4 from '../img/team/de_4.png';
+import de_5 from '../img/team/de_5.png';
+import pk_1 from '../img/team/pk_1.png';
+import pk_2 from '../img/team/pk_2.png';
+import pk_3 from '../img/team/pk_3.png';
+import pk_4 from '../img/team/pk_4.png';
+import pk_5 from '../img/team/pk_5.png';
+
+import me_1 from '../img/team/me_1.png';
+import me_2 from '../img/team/me_2.png';
+import me_3 from '../img/team/me_3.png';
+import me_4 from '../img/team/me_4.png';
+import me_5 from '../img/team/me_5.png';
+import krc_1 from '../img/team/krc_1.png';
+import krc_2 from '../img/team/krc_2.png';
+import krc_3 from '../img/team/krc_3.png';
+import krc_4 from '../img/team/krc_4.png';
+import krc_5 from '../img/team/krc_5.png';
+import jp_1 from '../img/team/jp_1.png';
+import jp_2 from '../img/team/jp_2.png';
+import jp_3 from '../img/team/jp_3.png';
+import jp_4 from '../img/team/jp_4.png';
+import jp_5 from '../img/team/jp_5.png';
 import React, { useState } from 'react';
 import { Box, Typography } from '@mui/material';
 import TeamMemberDialog from '../components/TeamMemberDialog.tsx';
@@ -87,7 +213,16 @@ const board = [
   { name: 'Rima Chatterjee', images: [rimaImg], role: 'Board Member' },
   { name: 'TBD', images: [ntLeaderImg], role: 'Board Member' },
 ];
-const divisionLeads = makeTeam(8, 'Division');
+const divisionLeads = [
+  { name: 'Division 1', images: [ntLeaderImg], role: 'Division Lead' },
+  { name: 'Division 2', images: [ntLeaderImg], role: 'Division Lead' },
+  { name: 'Division 3', images: [ntLeaderImg], role: 'Division Lead' },
+  { name: 'Division 4', images: [ntLeaderImg], role: 'Division Lead' },
+  { name: 'Division 5', images: [ntLeaderImg], role: 'Division Lead' },
+  { name: 'Division 6', images: [ntLeaderImg], role: 'Division Lead' },
+  { name: 'Division 7', images: [ntLeaderImg], role: 'Division Lead' },
+  { name: 'Division 8', images: [ntLeaderImg], role: 'Division Lead' },
+];
 
 const leadershipStructure = [
   {
@@ -121,11 +256,64 @@ const TeamGrid = ({ team }: { team: { name: string; role: string; images: string
 
 
   const getImages = (member: any) => {
-    if (member.name === 'Shounak Ray Chaudhuri') {
-      return [src1, src2, src3, src4, src5];
+    switch (member.name) {
+      case 'Matthew Hsu':
+        return [mh_1, mh_2, mh_3, mh_4, mh_5];
+      case 'Peyton Slape':
+        return [ps_1, ps_2, ps_3, ps_4, ps_5];
+      case 'Shravya Hatathodi':
+        return [shh_1, shh_2, shh_3, shh_4, shh_5];
+      case 'Srinivas Hatathodi':
+        return [srh_1, srh_2, srh_3, srh_4, srh_5];
+      case 'Kush Kharia':
+        return [kk_1, kk_2, kk_3, kk_4, kk_5];
+      case 'Forest Liang':
+        return [fl_1, fl_2, fl_3, fl_4, fl_5];
+      case 'Julian Garcia':
+        return [jg_1, jg_2, jg_3, jg_4, jg_5];
+      case 'Colin Thompson':
+        return [ct_1, ct_2, ct_3, ct_4, ct_5];
+      case 'Daniel Eremin':
+        return [de_1, de_2, de_3, de_4, de_5];
+      case 'Praem Kumar':
+        return [pk_1, pk_2, pk_3, pk_4, pk_5];
+      case 'Pryya Surarujiroj':
+        return [js_1, js_2, js_3, js_4, js_5];
+      case 'Mirabelle Egilmez':
+        return [me_1, me_2, me_3, me_4, me_5];
+      case 'Kausik Ray Chaudhuri':
+        return [krc_1, krc_2, krc_3, krc_4, krc_5];
+      case 'J.P. Pierce':
+        return [jp_1, jp_2, jp_3, jp_4, jp_5];
+      case 'Paul Hsu':
+        return [paulImg];
+      case 'Tayyar Egilmez':
+        return [tayyarImg];
+      case 'Jocelyn Slape':
+        return [jocelynImg];
+      case 'Rima Chatterjee':
+        return [rimaImg];
+      case 'Division 1':
+        return [d1_1, d1_2, d1_3, d1_4, d1_5];
+      case 'Division 2':
+        return [d2_1, d2_2, d2_3, d2_4, d2_5];
+      case 'Division 3':
+        return [d3_1, d3_2, d3_3, d3_4, d3_5];
+      case 'Division 4':
+        return [d4_1, d4_2, d4_3, d4_4, d4_5];
+      case 'Division 5':
+        return [d5_1, d5_2, d5_3, d5_4, d5_5];
+      case 'Division 6':
+        return [d6_1, d6_2, d6_3, d6_4, d6_5];
+      case 'Division 7':
+        return [d7_1, d7_2, d7_3, d7_4, d7_5];
+      case 'Division 8':
+        return [d8_1, d8_2, d8_3, d8_4, d8_5];
+      case 'TBD':
+        return [tbd_1, tbd_2, tbd_3, tbd_4, tbd_5];
+      default:
+        return [ntLeaderImg, ntLeaderImg, ntLeaderImg, ntLeaderImg, ntLeaderImg];
     }
-    // For all other leaders, use nt_leader.png for all five dialog images
-    return [ntLeaderImg, ntLeaderImg, ntLeaderImg, ntLeaderImg, ntLeaderImg];
   };
 
   const handleLearnMore = (member: any) => {

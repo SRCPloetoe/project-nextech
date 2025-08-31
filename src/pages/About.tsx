@@ -67,7 +67,7 @@ const About: React.FC = () => (
 
     {/* Mission & Vision */}
     <Box display="grid" gridTemplateColumns={{ xs: '1fr', md: '1fr 1fr' }} gap={4} mb={6}>
-      <Box bgcolor="#f24c02" color="#fff" borderRadius={2} p={4}>
+      <Box bgcolor="#473024" color="#fff" borderRadius={2} p={4} border="3px solid #f24c02">
         <Typography variant="h4" fontWeight={700} fontFamily="Inter, Arial, sans-serif" mb={1} align="center">
           Our Mission
         </Typography>
@@ -75,7 +75,7 @@ const About: React.FC = () => (
           To inspire and support a global community of students through interactive, accessible, and high-quality STEM education, equipping them with a passion to combat real-world problems.
         </Typography>
       </Box>
-      <Box bgcolor="#4083cc" color="#fff" borderRadius={2} p={4}>
+      <Box bgcolor="#303947" color="#fff" borderRadius={2} p={4} border="3px solid #4083cc">
         <Typography variant="h4" fontWeight={700} fontFamily="Inter, Arial, sans-serif" mb={1} align="center">
           Our Vision
         </Typography>
@@ -130,13 +130,13 @@ const About: React.FC = () => (
       <Typography variant="h4" fontWeight={700} mb={2} fontFamily="Inter, Arial, sans-serif" align="center">
         Our Impact Map
       </Typography>
-      <Box display="flex" justifyContent="center">
+      <Box width="100%">
         <iframe
           title="Google MyMap"
           src="https://www.google.com/maps/d/u/0/embed?mid=1cfW8EF2DcCvJ3TkhxMR73vx3O3sCFfA&ehbc=2E312F"
           width="100%"
           height="640"
-          style={{ border: 0, maxWidth: 1200 }}
+          style={{ border: 0, width: '100%' }}
           allowFullScreen
           loading="lazy"
         ></iframe>
