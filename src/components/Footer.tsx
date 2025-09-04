@@ -3,7 +3,7 @@ import { Box, Typography, Link, IconButton } from '@mui/material';
 import EmailIcon from '@mui/icons-material/Email';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 
@@ -26,7 +26,7 @@ const Footer: React.FC = () => (
             <Box display="flex" alignItems="center" mb={1} justifyContent={{ xs: 'center', sm: 'flex-start' }}>
               <EmailIcon sx={{ mr: 1, color: '#f24c02' }} />
               <Typography variant="body1" sx={{ fontFamily: 'Inter, Arial, sans-serif' }}>
-                info@projectnextech.org
+                <Link href="mailto:info@projectnextech.org">info@projectnextech.org</Link>
               </Typography>
             </Box>
             <Box display="flex" alignItems="center" justifyContent={{ xs: 'center', sm: 'flex-start' }}>
@@ -37,10 +37,10 @@ const Footer: React.FC = () => (
             </Box>
             {/* Social Links for xs: below contact info, center aligned */}
             <Box sx={{ display: { xs: 'flex', sm: 'none' }, justifyContent: 'center', alignItems: 'center', mt: 2 }}>
-              <IconButton color="inherit" href="#" sx={{ color: '#fff' }}><FacebookIcon /></IconButton>
-              <IconButton color="inherit" href="#" sx={{ color: '#fff' }}><TwitterIcon /></IconButton>
-              <IconButton color="inherit" href="#" sx={{ color: '#fff' }}><InstagramIcon /></IconButton>
-              <IconButton color="inherit" href="#" sx={{ color: '#fff' }}><YouTubeIcon /></IconButton>
+              <IconButton color="inherit" href="https://www.facebook.com/profile.php?id=61560717552719" sx={{ color: '#fff' }}><FacebookIcon /></IconButton>
+              <IconButton color="inherit" href="https://www.linkedin.com/company/project-nextech" sx={{ color: '#fff' }}><LinkedInIcon /></IconButton>
+              <IconButton color="inherit" href="https://www.instagram.com/projectnextech/" sx={{ color: '#fff' }}><InstagramIcon /></IconButton>
+              <IconButton color="inherit" href="https://www.youtube.com/@ProjectNexTech" sx={{ color: '#fff' }}><YouTubeIcon /></IconButton>
             </Box>
           </Box>
           {/* Center: Mission Statement */}
@@ -54,10 +54,10 @@ const Footer: React.FC = () => (
           </Box>
           {/* Right: Social Links for sm and up: right aligned */}
           <Box sx={{ minWidth: 250, textAlign: 'right', display: { xs: 'none', sm: 'flex' }, justifyContent: 'flex-end', alignItems: 'center', pr: { xs: 0, md: 2 } }}>
-            <IconButton color="inherit" href="#" sx={{ color: '#fff' }}><FacebookIcon /></IconButton>
-            <IconButton color="inherit" href="#" sx={{ color: '#fff' }}><TwitterIcon /></IconButton>
-            <IconButton color="inherit" href="#" sx={{ color: '#fff' }}><InstagramIcon /></IconButton>
-            <IconButton color="inherit" href="#" sx={{ color: '#fff' }}><YouTubeIcon /></IconButton>
+            <IconButton color="inherit" href="https://www.facebook.com/profile.php?id=61560717552719" sx={{ color: '#fff' }}><FacebookIcon /></IconButton>
+            <IconButton color="inherit" href="https://www.linkedin.com/company/project-nextech" sx={{ color: '#fff' }}><LinkedInIcon /></IconButton>
+            <IconButton color="inherit" href="https://www.instagram.com/projectnextech/" sx={{ color: '#fff' }}><InstagramIcon /></IconButton>
+            <IconButton color="inherit" href="https://www.youtube.com/@ProjectNexTech" sx={{ color: '#fff' }}><YouTubeIcon /></IconButton>
           </Box>
         </Box>
       </Box>
